@@ -11,6 +11,10 @@ function FindProxyForURL(url, host) {
         return "PROXY 34.74.12.142:3128";
     }
 
+    if (dnsDomainIs(host, "netaccess.iitm.ac.in")) {
+        return "PROXY 34.74.12.142:3128";
+    }
+
     // For all other domains, direct connection
     return "DIRECT";
 }

@@ -3,12 +3,12 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(url, "http://connectivitycheck.gstatic.com/generate_204") ||
         shExpMatch(url, "http://clients3.google.com/generate_204") ||
         shExpMatch(url, "http://play.googleapis.com/generate_204")) {
-        return "PROXY 10.22.3.113:3128";
+        return "PROXY 34.74.12.142:3128";
     }
 
     // Proxy for gstatic.com domains
     if (dnsDomainIs(host, ".gstatic.com")) {
-        return "PROXY 10.22.3.113:3128";
+        return "PROXY 34.74.12.142:3128";
     }
 
     // For all other domains, direct connection

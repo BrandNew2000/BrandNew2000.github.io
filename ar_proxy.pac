@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     
     //var="PROXY HTTP 10.22.3.113:3128"
-    var pURL="PROXY HTTPS iitmproxy.ddns.net"
+    var pURL="PROXY HTTPS iitmproxy.ddns.net:8090"
 
 
     // Proxy Android connectivity check URLs

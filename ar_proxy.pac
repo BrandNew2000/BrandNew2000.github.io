@@ -17,7 +17,7 @@ function FindProxyForURL(url, host) {
     //    return pURL;
     //}
 
-    if (dnsDomainIs(host, "ipinfo.io")) {
+    if (dnsDomainIs(host, ".ipinfo.io")) {
         return pURL;
     }
 

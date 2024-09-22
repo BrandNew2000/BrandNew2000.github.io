@@ -22,5 +22,5 @@ function FindProxyForURL(url, host) {
     }
 
     // For all other domains, direct connection
-    return "DIRECT";
+    return "pURL";
 }

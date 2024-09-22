@@ -1,18 +1,21 @@
+//var="PROXY HTTP 10.22.3.113:3128"
+var="PROXY HTTPS iitmproxy.ddns.net"
+
 function FindProxyForURL(url, host) {
     // Proxy Android connectivity check URLs
     if (shExpMatch(url, "http://connectivitycheck.gstatic.com/generate_204") ||
         shExpMatch(url, "http://clients3.google.com/generate_204") ||
         shExpMatch(url, "http://play.googleapis.com/generate_204")) {
-        return "PROXY HTTP 10.22.3.113:3128";
+        return var;
     }
 
     // Proxy for gstatic.com domains
     if (dnsDomainIs(host, ".gstatic.com")) {
-        return "PROXY HTTP 10.22.3.113:3128";
+        return var;
     }
 
     if (dnsDomainIs(host, "ipinfo.io")) {
-        return "PROXY HTTP 10.22.3.113:3128";
+        return var;
     }
 
     // For all other domains, direct connection

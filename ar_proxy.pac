@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     
     //var="PROXY HTTP 10.22.3.113:3128"
-    var pURL = "HTTP iitmproxy.ddns.net:8090";
+    var pURL = "HTTP iitmproxy.ddns.net:3128";
 
 
     // Proxy Android connectivity check URLs
@@ -21,6 +21,9 @@ function FindProxyForURL(url, host) {
         return pURL;
     }
 
+    if (dnsDomainIs(host, "netaccess.iitm.ac.in")) {
+        return pURL;
+    }
     // For all other domains, direct connection
     return "DIRECT";
 }

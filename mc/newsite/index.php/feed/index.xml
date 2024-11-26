@@ -11,8 +11,8 @@
 
 <channel>
 	<title>Mathematics Club IITM</title>
-	<atom:link href="/index.php/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="/mc/newsite/index.php/feed/" rel="self" type="application/rss+xml" />
+	<link>/mc/newsite</link>
 	<description></description>
 	<lastBuildDate>Mon, 25 Nov 2024 20:00:23 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -23,28 +23,28 @@
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2024/11/mclogo-150x150.png</url>
+	<url>/mc/newsite/wp-content/uploads/2024/11/mclogo-150x150.png</url>
 	<title>Mathematics Club IITM</title>
-	<link></link>
+	<link>/mc/newsite</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hello world!</title>
-		<link>/index.php/2024/11/25/hello-world/</link>
-					<comments>/index.php/2024/11/25/hello-world/#comments</comments>
+		<link>/mc/newsite/index.php/2024/11/25/hello-world/</link>
+					<comments>/mc/newsite/index.php/2024/11/25/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[achintya]]></dc:creator>
 		<pubDate>Mon, 25 Nov 2024 20:00:23 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">/mc/newsite/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/index.php/2024/11/25/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/mc/newsite/index.php/2024/11/25/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
